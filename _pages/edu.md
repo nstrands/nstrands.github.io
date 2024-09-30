@@ -1,9 +1,11 @@
 ---
 title: Educational Pursuits
-subtitle: Since 2022, I’ve utilized my employer’s education assistance program to pursue a Master’s in Conservation Biology from the University of West Alabama and a Graduate Certificate in Geospatial Analysis from the University of Florida. With a Bachelor of Science in Biological Oceanography from Rutgers University (2012), I’m looking to blend my background in marine science with my interest in technology and remote sensing to contribute to protecting marine habitats amid the challenges of climate change. 
-description: Since 2022, I’ve utilized my employer’s education assistance program to pursue a Master’s in Conservation Biology from the University of West Alabama and a Graduate Certificate in Geospatial Analysis from the University of Florida. With a Bachelor of Science in Biological Oceanography from Rutgers University (2012), I’m looking to blend my background in marine science with my interest in technology and remote sensing to contribute to protecting marine habitats amid the challenges of climate change.
+subtitle: Since 2022, I’ve utilized my employer’s education assistance program to pursue a Master’s in Conservation Biology from the University of West Alabama and a Graduate Certificate in Geospatial Analysis from the University of Florida. With a Bachelor of Science in Biological Oceanography from Rutgers University (2012), I’m looking to blend my background in marine science with my interest in technology and remote sensing to contribute to protecting coastal and marine habitats amid the challenges of climate change. 
+description: Since 2022, I’ve utilized my employer’s education assistance program to pursue a Master’s in Conservation Biology from the University of West Alabama and a Graduate Certificate in Geospatial Analysis from the University of Florida. With a Bachelor of Science in Biological Oceanography from Rutgers University (2012), I’m looking to blend my background in marine science with my interest in technology and remote sensing to contribute to protecting coastal and marine habitats amid the challenges of climate change.
 featured_image: /images/demo/about.jpg
 ---
+
+## Courses
 
 | Term            | Course Name                                    | Credits | University | Final Grade |
 |-----------------|------------------------------------------------|---------|------------|-------------|
@@ -23,13 +25,28 @@ featured_image: /images/demo/about.jpg
 
 ## Scientific Society Memberships
 
-[AGU](https://www.agu.org/)
-[ASLO](https://www.aslo.org/)
-[ESA](https://www.esa.org/)
-[IEEE](https://www.ieee.org/)
-[IMarEST](https://www.imarest.org/)
-[MTS](https://www.mtsociety.org/)
+[AGU](https://www.agu.org/) \
+[ASLO](https://www.aslo.org/) \
+[ESA](https://www.esa.org/) \
+[IEEE](https://www.ieee.org/) \
+[IMarEST](https://www.imarest.org/) \
+[MTS](https://www.mtsociety.org/) \
 [TOS](https://tos.org/)
 
 
+## Publications
 
+A.G. Ramos *et al.*, "Lagrangian coherent structure assisted path planning for transoceanic autonomous underwater vehicle missions," Scientific Reports 8, 4575 (2018)., [https://doi.org/10.1038/s41598-018-23028-8](https://doi.org/10.1038/s41598-018-23028-8)
+
+R. Sacatelli *et al.*, "Ocean predictive skill assessments in the South Atlantic: Crowd-sourcing of student-based discovery," 2014 Oceans - St. John's, St. John's, NL, Canada, 2014, pp. 1-7., [http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7003134&isnumber=7002974](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7003134&isnumber=7002974)
+
+S. Glenn *et al.*, "Process-driven improvements to hurricane intensity and storm surge forecasts in the mid-atlantic bight: Lessons learned from hurricanes irene and sandy," 2013 MTS/IEEE OCEANS - Bergen, Bergen, Norway, 2013, pp. 1-9., [http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6608108&isnumber=6607940](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6608108&isnumber=6607940)
+
+C. Dobson *et al.*, "The Challenger Glider Mission: A global ocean predictive skill experiment," 2013 OCEANS - San Diego, San Diego, CA, USA, 2013, pp. 1-8., [http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6741236&isnumber=6740936](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6741236&isnumber=6740936)
+
+
+## Presentations
+
+R. Sacatelli *et al.*, (2014). *RU29 vs. Ocean Models; a Global Ocean Predictive Initiative.* Challenger Society 2014 Conference, Plymouth University UK
+
+A. G. Ramos, N.Strandskov, (2012). *Challenger 1 mission: 5600 km de viaje submarino en glider (Silbo).* Invited Speaker Series University of Las Palmas, Gran Canary ES
