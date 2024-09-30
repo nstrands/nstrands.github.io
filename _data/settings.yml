@@ -1,6 +1,6 @@
 basic_settings:
-  site_title: Personal
-  favicon_image: /images/favicon.png
+  site_title: Nilsen Strandskov
+  favicon_image: /images/favicon.ico
 
 header_settings:
   logo_image: 
@@ -10,15 +10,21 @@ menu_settings:
   menu_items:
     - title: 'Projects'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
     - title: 'About'
       url: '/about'
+    - title: 'Photography'
+      url: '/photo'  
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'Education'
+      url: '/edu/'
+    - title: 'CV'
+      url: '/cv'  
     - title: 'Contact'
       url: '/contact'
 
 footer_settings:
-  footer_tagline: A sleek, modern Jekyll theme for personal websites.
+  footer_tagline: # Developer, Scientist, Photographer
 
 hero_settings:
   overlay_opacity: 0.8
@@ -34,8 +40,8 @@ contact_settings:
 
 social_settings:
   facebook_url: ''
-  twitter_url: ''
-  instagram_url: ''
+  twitter_url: 'https://x.com/nstrands'
+  instagram_url: 'https://www.instagram.com/nstrands.photo/'
   snapchat_url: ''
   youtube_url: ''
   google-plus_url: ''
@@ -58,7 +64,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/strandskov/'
 
 color_settings:
   background_color: '#ffffff'

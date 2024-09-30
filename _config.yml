@@ -1,7 +1,12 @@
-site: Personal Jekyll Theme
-
-url: 
+site: Nilsen Strandskov
+description: "Developer, Scientist, Photographer. Master of Science student in Conservation Biology at the University of West Alabama. Graduate Certificate in Ceospatial Analysis student at the University of Florida."
+url: https://www.nstrands.com
 baseurl: 
+
+author:
+  name: "Nilsen Strandskov"
+  email: "nstrands18@gmail.com"
+
 
 collections:
   pages:
