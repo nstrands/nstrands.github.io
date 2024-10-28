@@ -34,6 +34,9 @@ featured_image: /images/demo/about.jpg
 [TOS](https://tos.org/)
 
 
+## Certifications
+[EPA Watershed Academy Training Certificate](https://www.epa.gov/watershedacademy)
+
 ## Publications
 
 A.G. Ramos *et al.*, "Lagrangian coherent structure assisted path planning for transoceanic autonomous underwater vehicle missions," Scientific Reports 8, 4575 (2018)., [https://doi.org/10.1038/s41598-018-23028-8](https://doi.org/10.1038/s41598-018-23028-8)
