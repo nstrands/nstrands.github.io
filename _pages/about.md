@@ -6,11 +6,11 @@ featured_image: /images/DSC03143.webp
 ---
 
 
-## Web Development
-<p style="float: left; margin: 0 15px 15px 0;">
-  <img src="images/9D931401-9341-4395-9727-53A8C2371D85.webp" alt="Description" width="200">
-</p>
 
+
+  <img src="images/9D931401-9341-4395-9727-53A8C2371D85.webp" alt="Description" width="200" style="float: left; margin: 40px 15px 15px 0;">
+
+## Web Development
 My journey into web development started back in 2008 while working at the Department of Marine and Coastal Sciences, where I maintained a WordPress blog to document my work. This continued throughout my studies until 2012, when I made a big career shift, transitioning from oceanography research to web development. Around that time, a position opened up in the lab I was assisting, and I began managing and updating their Joomla! site. Over the following months, my role expanded, and I eventually took on the maintenance of over 20 websites for the Rutgers University Department of Marine and Coastal Sciences and the Mid-Atlantic Regional Association Coastal Ocean Observing System, working across Joomla!, WordPress, Drupal, and custom HTML/CSS/JS sites.
 
 In December 2016, I joined Achieve3000 as a lead web developer for the marketing department, focusing on designing, building, and optimizing marketing emails and landing pages on the Salesforce Pardot platform. My responsibilities included contributing to the design process, coding the designs using HTML/CSS/JavaScript, and QA testing across devices and platforms with Litmus. I also managed updates for corporate websites, microsites, and landing pages.
