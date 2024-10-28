@@ -40,7 +40,7 @@ contact_settings:
 
 social_settings:
   facebook_url: ''
-  twitter_url: 'https://x.com/nstrands'
+  x-twitter_url: 'https://x.com/nstrands'
   instagram_url: 'https://www.instagram.com/nstrands.photo/'
   snapchat_url: ''
   youtube_url: ''
@@ -65,6 +65,9 @@ social_settings:
   spotify_url: ''
   bandcamp_url: ''
   linkedin_url: 'https://www.linkedin.com/in/strandskov/'
+  orcid_url: "https://orcid.org/0009-0008-2766-126X"
+  google-scholar_url: "https://scholar.google.com/citations?user=TIw2FC4AAAAJ&hl=en"
+  goodreads_url: "https://www.goodreads.com/user/show/144285193-nilsen-strandskov"
 
 color_settings:
   background_color: '#ffffff'
