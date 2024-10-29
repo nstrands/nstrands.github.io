@@ -34,7 +34,7 @@ post_settings:
 
 contact_settings:
   form_action: 'https://formspree.io/f/mnnqjlbk'
-  confirmation_url: '/thanks'
+  confirmation_url: ''
   email_subject: 'Contact form submission nstrands.com'
   send_button_text: 'Send Message'
 
