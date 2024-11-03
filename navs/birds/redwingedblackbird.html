@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>BY528 - North American Vertebrate Survey v1.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars-offcanvas/">
+
+<!--     Color Pallet:
+    Amphibians - #e7c69a
+    Birds - #8aa0ad
+    Fish - #8e9c95
+    Mammals - #803a34
+    Reptiles - #d58957 -->
+
+    
+
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .leaflet-container {
+        height: 400px;
+        width: 600px;
+        max-width: 100%;
+        max-height: 100%;
+      }
+      .data {padding-bottom: 20px!important;}    
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+  <nav class="navbar navbar-dark bg-dark" aria-label="Dark offcanvas navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">North American Vertebrate Survey v1.0</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-white bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">N.A.V.S. v1.0</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../amphibians.html" style="Color: #e7c69a;">Amphibians</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../birds.html" style="Color: #8aa0ad;">Birds</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../fish.html" style="Color: #8e9c95;">Fish</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../mammals.html" style="Color: #803a34;">Mammals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../reptiles.html" style="Color: #d58957;">Reptiles</a>
+            </li>
+            
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+
+    <div class="container py-4">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="../birds.html">Birds</a></li>
+        
+      </ol>
+    </nav>
+    <div class="row align-items-md-stretch">
+      <div class="col-md-12">
+        <h1>Red Winged Blackbird</h1>
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-lg-8 col-md-12 col-sm-12 data">
+        <div class="rounded-3">
+          <img class="img-fluid rounded-3" src="img/redwingedblackbird.jpg">
+        
+        </div>
+        <!-- <div class="h-100 p-5 text-white bg-dark rounded-3">
+          <h2>Change the background</h2>
+          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+          <button class="btn btn-outline-light" type="button">Example button</button>
+        </div> -->
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 data">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <!-- <h2>Common Name</h2> -->
+          <p><em>Genus: Agelaius </em> </p>
+          <p><em>Species: phoeniceus</em> </p>
+          <p>Date: 5/18/22  12:50</p>
+          <p>Location: Grover Cleveland Park; 40.83407615174056, -74.28738350974781 </p>
+          <p>Habitat: Park</p>
+          
+        </div>
+      </div>
+    </div>
+
+  <div class="row align-items-md-stretch">
+      <div class="col-12 rounded-3 data" style="padding-bottom: 40px;">
+        
+
+        <div id="map" style="width: 100%; height: 400px;" class="rounded-3"></div>
+          <script>
+
+            var map = L.map('map').setView([40.9, -74.3], 7);
+
+            var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+              maxZoom: 18,
+              attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+                'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+              id: 'mapbox/streets-v11',
+              tileSize: 512,
+              zoomOffset: -1
+            }).addTo(map);
+
+            var marker = L.marker([40.83407615174056, -74.28738350974781]).addTo(map)
+              
+
+            // var circle = L.circle([51.508, -0.11], {
+            //   color: 'red',
+            //   fillColor: '#f03',
+            //   fillOpacity: 0.5,
+            //   radius: 500
+            // }).addTo(map).bindPopup('I am a circle.');
+
+            // var polygon = L.polygon([
+            //   [51.509, -0.08],
+            //   [51.503, -0.06],
+            //   [51.51, -0.047]
+            // ]).addTo(map).bindPopup('I am a polygon.');
+
+
+            // var popup = L.popup()
+            //   .setLatLng([51.513, -0.09])
+            //   .setContent('I am a standalone popup.')
+            //   .openOn(map);
+
+            function onMapClick(e) {
+              popup
+                .setLatLng(e.latlng)
+                .setContent('You clicked the map at ' + e.latlng.toString())
+                .openOn(map);
+            }
+
+            map.on('click', onMapClick);
+
+          </script>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+</main>
+<footer>
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="../amphibians.html" class="nav-link px-2 text-muted">Amphibians</a></li>
+        <li class="nav-item"><a href="../birds.html" class="nav-link px-2 text-muted">Birds</a></li>
+        <li class="nav-item"><a href="../fish.html" class="nav-link px-2 text-muted">Fish</a></li>
+        <li class="nav-item"><a href="../mammals.html" class="nav-link px-2 text-muted">Mammals</a></li>
+        <li class="nav-item"><a href="../reptiles.html" class="nav-link px-2 text-muted">Reptiles</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2022 Nilsen Strandskov</p>
+    </footer>
+  </div>
+
+
+</footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+      
+  </body>
+</html>
