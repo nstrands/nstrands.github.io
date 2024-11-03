@@ -53,3 +53,8 @@ C. Dobson *et al.*, "The Challenger Glider Mission: A global ocean predictive sk
 R. Sacatelli *et al.*, (2014). *RU29 vs. Ocean Models; a Global Ocean Predictive Initiative.* Challenger Society 2014 Conference, Plymouth University UK
 
 A. G. Ramos, N.Strandskov, (2012). *Challenger 1 mission: 5600 km de viaje submarino en glider (Silbo).* Invited Speaker Series University of Las Palmas, Gran Canary ES
+
+
+## Projects
+[North American Vertibrate Survey](https://nstrands.com/navs/) \
+[Impacts of Hurricane Ian on the Florida Peninsula](https://storymaps.arcgis.com/stories/0a060cf17cc44606b68467ea70306bab)
