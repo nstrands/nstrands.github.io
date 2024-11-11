@@ -27,12 +27,12 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="NAVS 2.0 Planning – Nilsen Strandskov">
 	<meta name="twitter:description" content="Bouncing ideas around for a project to practice back end development and database managedment, building off of the data I colleced for one of my graduate courses.">
-	<meta name="twitter:image:src" content="http://localhost:4000/images/demo/demo-square.jpg">
+	<meta name="twitter:image:src" content="http://localhost:4000/images/DSC09929.webp">
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="NAVS 2.0 Planning – Nilsen Strandskov" />
 	<meta property="og:description" content="Bouncing ideas around for a project to practice back end development and database managedment, building off of the data I colleced for one of my graduate courses." />
-	<meta property="og:image" content="http://localhost:4000/images/demo/demo-square.jpg" />
+	<meta property="og:image" content="http://localhost:4000/images/DSC09929.webp" />
 
 	
 	<!-- Font Embed Code -->
@@ -135,7 +135,7 @@
 
 			<section class="hero hero--single">
 
-	<div class="hero__image" style="background-image: url(/images/demo/demo-square.jpg)">
+	<div class="hero__image" style="background-image: url(/images/DSC09929.webp)">
 		<div class="hero__overlay"></div>
 	</div>
 
@@ -154,7 +154,59 @@
 
 		<article class="single-post">
 
-			
+			<p>The first course I took while pursuing my masters in Conservation Biology was Vertebrate Zoology. The main assignment for the lab portion of this course consisted of taking time to go out and catalogue as many vertebrates as you could within the time frame of the course. Over the next 6 weeks I took my camera equiped with the Sigma 150-600mm lens everywhere and did my best to find and identify as many creatures as I could. Towards the end of the course, I decided to spin up a quick bootstrap site to display my findings, instead of the powerpoint format suggested by the professor.</p>
+
+<p>I found this exercise to be a lot of fun and have continued to capture pictures of a variety of animals on my adventures, however I have not kept the page I built up to date. Instead of continuing the tedious task of creating static pages for each animal, I am planning on expanding my dev knowledge to create a more powerful tool. My goal is to create a web app that leverages a database that I maintain that includes the common and scientific name, location of encounter, images I have taken, typical range for the animal, animal description, endangered status and threats that they face.</p>
+
+<p>The tech stack I plan to use is listed below. The languages and technologies I plan to use revolve around python, sql and ARCgis.</p>
+
+<ol>
+  <li>Frontend Hosting with S3 and CloudFront
+    <ul>
+      <li>Amazon S3:
+Host the React app as a static website on S3, serving all HTML, CSS, and JavaScript files.</li>
+      <li>CloudFront:
+Use CloudFront as a CDN in front of S3 to cache assets globally for faster loading times.</li>
+    </ul>
+  </li>
+  <li>Backend API with Flask on AWS Lambda and API Gateway
+    <ul>
+      <li>AWS Lambda:
+Deploy the Flask API as serverless functions using Lambda. This handles API calls from the frontend and integrates with your database.</li>
+      <li>Amazon API Gateway:
+Create a REST API with API Gateway to route requests from your React frontend to your Lambda functions, allowing custom domain setup and caching.</li>
+    </ul>
+  </li>
+  <li>Database with Amazon RDS (PostgreSQL + PostGIS)
+    <ul>
+      <li>Amazon RDS with PostgreSQL and PostGIS:
+Use Amazon RDS to host PostgreSQL with PostGIS enabled, storing animal data (encounters, images, descriptions).
+PostGIS supports geospatial data for encounter locations and range polygons.</li>
+      <li>VPC for Database Security:
+Set up a VPC to isolate the database and configure IAM roles for access control.</li>
+    </ul>
+  </li>
+  <li>Image Storage with Amazon S3
+    <ul>
+      <li>S3 for Images:
+Store all animal images in an S3 bucket, with optional CloudFront integration for faster delivery.</li>
+      <li>AWS Lambda for Image Processing (Optional):
+Automate image resizing and processing with Lambda functions triggered on image upload.</li>
+    </ul>
+  </li>
+  <li>Interactive Mapping with ArcGIS API for JavaScript
+    <ul>
+      <li>ArcGIS API for JavaScript:
+Use the ArcGIS API to create interactive maps, display encounter locations, and add geographic range polygons.</li>
+      <li>Data Integration:
+Fetch encounter locations and range polygons from your Flask API connected to RDS/PostGIS.
+Add Feature Layers to the map from your API or by integrating with ArcGIS Online if needed.</li>
+      <li>Interactivity:
+Configure popups to display animal details (names, images, etc.) when users click on map points.
+Use the API to add layer controls for toggling between animal categories (e.g., Fish, Reptiles).</li>
+    </ul>
+  </li>
+</ol>
 
 
 		</article>
@@ -182,52 +234,6 @@
 		<ul class="socials">
 	
 	
-	
-	
-	<li class="socials__item">
-		<a href="https://x.com/nstrands" target="_blank" class="socials__item__link" title="X twitter">
-			<i class="fab fa-x-twitter" aria-hidden="true"></i>
-		</a>
-	</li>
-	
-	
-	
-	<li class="socials__item">
-		<a href="https://www.instagram.com/nstrands.photo/" target="_blank" class="socials__item__link" title="Instagram">
-			<i class="fab fa-instagram" aria-hidden="true"></i>
-		</a>
-	</li>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	<li class="socials__item">
 		<a href="https://github.com/nstrands" target="_blank" class="socials__item__link" title="Github">
 			<i class="fab fa-github" aria-hidden="true"></i>
@@ -236,23 +242,17 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	<li class="socials__item">
+		<a href="https://www.linkedin.com/in/strandskov/" target="_blank" class="socials__item__link" title="Linkedin">
+			<i class="fab fa-linkedin" aria-hidden="true"></i>
+		</a>
+	</li>
 	
 	
 	
 	<li class="socials__item">
-		<a href="https://www.linkedin.com/in/strandskov/" target="_blank" class="socials__item__link" title="Linkedin">
-			<i class="fab fa-linkedin" aria-hidden="true"></i>
+		<a href="https://www.instagram.com/nstrands.photo/" target="_blank" class="socials__item__link" title="Instagram">
+			<i class="fab fa-instagram" aria-hidden="true"></i>
 		</a>
 	</li>
 	
@@ -279,6 +279,74 @@
 			<i class="fab fa-goodreads" aria-hidden="true"></i>
 		</a>
 	</li>
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://bsky.app/profile/nstrands.bsky.social" target="_blank" class="socials__item__link" title="Bluesky">
+			<i class="fab fa-bluesky" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.threads.net/@nstrands" target="_blank" class="socials__item__link" title="Threads">
+			<i class="fab fa-threads" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://x.com/nstrands" target="_blank" class="socials__item__link" title="X twitter">
+			<i class="fab fa-x-twitter" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 </ul>

@@ -4,7 +4,7 @@ subtitle: A summary of my work history and experience.
 description: A summary of my work history and experience.
 featured_image: /images/demo/about.jpg
 ---
-
+# Current
 ## [Wiley](https://www.wiley.com/)
 March 2020 - Present \
 *Marketing Automation Developer* \
@@ -17,7 +17,9 @@ In my role as a Marketing Automation Developer at Wiley, I build and deploy mult
 * Collaborate with strategy, design, and technical teams to create cohesive and impactful campaigns.
 * Analyze campaign performance metrics to inform future strategies.
 
+---
 
+# Previous
 ## [Fraym](https://fraym.io/)
 December 2023 - August 2024 \
 *Pardot Email Template Developer* \
@@ -73,7 +75,7 @@ December 2012 – February 2017 \
 Responsible for the design, production and maintenance of all Rutgers University Department of Marine and Coastal Sciences and Mid-Atlantic Regional Association of Coastal Ocean Observing Systems websites. Responsibilities include: 
 
 * Led HTML, CSS, and JavaScript development for departmental websites.
-* Maintained and designed content management systems including Joomla, Drupal, and WordPress.
+* Maintained and designed 30+ websites leveraging content management systems including Joomla, Drupal, and WordPress.
 * Managed website content updates including news stories, publications, and status reports.
 * Redesigned the MARACOOS regional website per directives from the Board of Directors.
 * Migrated legacy websites and plugins from Drupal 6 to the latest releases.
@@ -85,6 +87,8 @@ June 2011 – February 2017 \
 * Analyzed oceanographic data from satellites, radar, and gliders for research presentations.
 * Represented the university at international research conventions in Norway, the UK, Spain, and the Canary Islands.
 * Assisted in coordinating undergraduate classes, including lecturing and developing course materials.
+* Collaborated with international researchers to advance understanding of oceanographic processes.
+* Contributed to research publications and presentations based on collected data.
 * Managed IT tasks and equipment maintenance within the Center for Ocean Observing Leadership.
  
 
@@ -94,8 +98,7 @@ May 2011 – December 2013 \
 * Analyzed satellite data from SEASnet for environmental research.
 * Conducted research on biofouling impacts on Slocum Gliders' movement.
 * Participated in the GUAYOTA 4 Research Cruise, deploying an ROV into a submarine volcano.
-* Collaborated with international researchers to advance understanding of oceanographic processes.
-* Contributed to research publications and presentations based on collected data.
+
 
 
 <!-- ## Get Personal
