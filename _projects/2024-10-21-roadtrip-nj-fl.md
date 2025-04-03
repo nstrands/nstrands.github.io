@@ -16,8 +16,9 @@ Over the past few years, I have made the drive from Northern New Jersey to Centr
 The following are some of the photos I took along the way: 
 
 <div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
+	<img src="/images/portfolio/DSC01247.jpg">
+	<img src="/images/portfolio/DSC01642.jpg">
+	<img src="/images/portfolio/DSC01465.jpg">
+	<img src="/images/portfolio/DJI_0042-HDR-Enhanced-NR.jpg">
+	<img src="/images/portfolio/DSC01363.jpg">
 </div>
