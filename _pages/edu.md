@@ -16,12 +16,19 @@ featured_image: /images/demo/about.jpg
 | Summer 2 2023   | Environmental Applications of GIS              |       2   | DISL         | A             |
 | Spring 2024     | Geographic Information Systems Analysis        |       3   | UF           | A             |
 | Summer 2024     | Marine Biology                                 |       4   | DISL         | A             |
-| Fall 2024       | GIS Programming & Customization                |       3   | UF           |               |
+| Fall 2024       | GIS Programming & Customization                |       3   | UF           | A             |
 | Spring 2025     | Image Processing for Remote Sensing            |       3   | UF           |               |
-| Summer 1 2025   | Graduate Seminar												       |       2   | UWA          |               |
-| Fall 1 2025     | Conservation Biology                           |       3   | UWA          |               |
+| Summer 2025     | Biology & Conservation of Marine Turtles       |       2   | DISL         |               |
+| Summer 2 2025   | Graduate Seminar												       |       2   | UWA          |               |
+| Fall 1 2025     | Wetlands Ecology                               |       3   | UWA          |               |
+| Fall 2 2025     | Conservation Biology                           |       3   | UWA          |               |
 | Spring 2 2026   | Critical Issues in Conservation Biology 	     |       3   | UWA          |               |
-| Summer   2026   | Biology & Conservation of Marine Turtles       |       2   | DISL         |               |
+
+
+## Certifications
+[ESA Certified Associate Ecologist](https://esa.org/certification/)
+[EPA Watershed Academy Training Certificate](https://www.epa.gov/watershedacademy)
+
 
 ## Scientific Society Memberships
 
@@ -33,9 +40,6 @@ featured_image: /images/demo/about.jpg
 [MTS](https://www.mtsociety.org/) \
 [TOS](https://tos.org/)
 
-
-## Certifications
-[EPA Watershed Academy Training Certificate](https://www.epa.gov/watershedacademy)
 
 ## Publications
 
