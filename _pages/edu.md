@@ -26,7 +26,7 @@ featured_image: /images/demo/about.jpg
 
 
 ## Certifications
-[ESA Certified Associate Ecologist](https://esa.org/certification/)
+[ESA Certified Associate Ecologist](https://esa.org/certification/) \
 [EPA Watershed Academy Training Certificate](https://www.epa.gov/watershedacademy)
 
 
