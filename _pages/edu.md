@@ -2,7 +2,7 @@
 title: Educational Pursuits
 subtitle: Since 2022, I’ve utilized my employer’s education assistance program to pursue a Master’s in Conservation Biology from the University of West Alabama and a Graduate Certificate in Geospatial Analysis from the University of Florida. With a Bachelor of Science in Biological Oceanography from Rutgers University (2012), I’m looking to blend my background in marine science with my interest in technology and remote sensing to contribute to protecting coastal and marine habitats amid the challenges of climate change. 
 description: Since 2022, I’ve utilized my employer’s education assistance program to pursue a Master’s in Conservation Biology from the University of West Alabama and a Graduate Certificate in Geospatial Analysis from the University of Florida. With a Bachelor of Science in Biological Oceanography from Rutgers University (2012), I’m looking to blend my background in marine science with my interest in technology and remote sensing to contribute to protecting coastal and marine habitats amid the challenges of climate change.
-featured_image: /images/demo/about.jpg
+featured_image: /images/portfolio/DSC00508.jpg
 ---
 
 ## Courses
@@ -17,7 +17,7 @@ featured_image: /images/demo/about.jpg
 | Spring 2024     | Geographic Information Systems Analysis        |       3   | UF           | A             |
 | Summer 2024     | Marine Biology                                 |       4   | DISL         | A             |
 | Fall 2024       | GIS Programming & Customization                |       3   | UF           | A             |
-| Spring 2025     | Image Processing for Remote Sensing            |       3   | UF           |               |
+| Spring 2025     | Image Processing for Remote Sensing            |       3   | UF           | A             |
 | Summer 2025     | Biology & Conservation of Marine Turtles       |       2   | DISL         |               |
 | Summer 2 2025   | Graduate Seminar												       |       2   | UWA          |               |
 | Fall 1 2025     | Wetlands Ecology                               |       3   | UWA          |               |

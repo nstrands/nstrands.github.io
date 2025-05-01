@@ -2,7 +2,7 @@
 title: Curriculum Vitae
 subtitle: A summary of my work history and experience. 
 description: A summary of my work history and experience.
-featured_image: /images/demo/about.jpg
+featured_image: /images/DSC07906.jpg
 ---
 # Current
 ## [Wiley](https://www.wiley.com/)

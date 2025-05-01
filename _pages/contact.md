@@ -2,7 +2,7 @@
 title: Contact
 subtitle: Thanks for checking out my site! If you have any questions for me, feel free to reach out either through any of the socials listed on this site, or the form below.
 description: Personal is the perfect theme for developers, designers and other creatives.
-featured_image: /images/demo/contact.jpg
+featured_image: /images/DSC03314_PSMS16.jpg
 ---
 
 {% include contact-form.html %}
