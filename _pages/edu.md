@@ -18,11 +18,11 @@ featured_image: /images/portfolio/DSC00508.jpg
 | Summer 2024     | Marine Biology                                 |       4   | DISL         | A             |
 | Fall 2024       | GIS Programming & Customization                |       3   | UF           | A             |
 | Spring 2025     | Image Processing for Remote Sensing            |       3   | UF           | A             |
-| Summer 2025     | Biology & Conservation of Marine Turtles       |       2   | DISL         |               |
-| Summer 2 2025   | Graduate Seminar												       |       2   | UWA          |               |
-| Fall 1 2025     | Wetlands Ecology                               |       3   | UWA          |               |
-| Fall 2 2025     | Conservation Biology                           |       3   | UWA          |               |
-| Spring 2 2026   | Critical Issues in Conservation Biology 	     |       3   | UWA          |               |
+| Summer 2025     | Biology & Conservation of Marine Turtles       |       2   | DISL         | A             |
+|                 | Graduate Seminar												       |       2   | UWA          |               |
+|                 | Wetlands Ecology                               |       3   | UWA          |               |
+|                 | Conservation Biology                           |       3   | UWA          |               |
+|                 | Critical Issues in Conservation Biology 	     |       3   | UWA          |               |
 
 
 ## Certifications
